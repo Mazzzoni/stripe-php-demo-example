@@ -36,11 +36,11 @@ Stripe also provide a lot of testing cards which [you can find here](https://str
 
 ## About
 
+You can learn more about Stripe payment and [how this demo works on this page](https://francois-steinel.fr/en/article/introducing-stripe-payment-into-your-php-projects).
+
 The example leverage [PaymentIntent](https://stripe.com/docs/payments/payment-intents) of Stripe, this make payments [SCA compliant](https://stripe.com/docs/strong-customer-authentication).  
 It also use the last version of the [Stripe PHP SDK](https://github.com/stripe/stripe-php) ([v7.27.0](https://github.com/stripe/stripe-php/releases/tag/v7.27.0)) available at the moment.
 
 You can find the [official example from Stripe here](https://github.com/stripe-samples/accept-a-card-payment/tree/master/without-webhooks/server/php) from which I built this example upon. (please notice that the original example don't work if you install it, you'll need to tweak it a bit to make it work)
 
 The project tries to be quite simple but also more clear than the example given by Stripe.
-
-You can also learn more about Stripe payment and how this demo works [on this page](https://francois-steinel.fr/en/).
